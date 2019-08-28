@@ -1,6 +1,8 @@
 import random
 
 """Functional style"""
+
+
 def quick_sort(A):
     if len(A) <= 1:
         return A
