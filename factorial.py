@@ -1,19 +1,20 @@
 """factorial via math module"""
-import math
+from math import factorial
 
-print(math.factorial(5))
-print(math.factorial(15))
-print(math.factorial(51))
+print(factorial(5))
+# print(factorial(15))
+# print(factorial(51))
 
 """factorial via recursion"""
 
-# def factorial(n):
-#     if n == 0:
-#         return 1
-#     return factorial(n-1) * n
-#
-#
-# print(factorial(5))
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return factorial(n-1) * n
+
+
+print(factorial(6))
 # print(factorial(15))
 # print(factorial(52))
 
